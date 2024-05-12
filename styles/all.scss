@@ -21,6 +21,7 @@ header .container_menu{
   letter-spacing: 0.01em;
   color: #212121;
   display: flex;
+  margin-bottom: 20px;
 }
 .container_menu li{
   list-style: none;
@@ -43,6 +44,7 @@ header .container_menu{
   margin-top:6px;
   margin-left: 8px;
 }
+
 .contact_sales{
   border: 1px solid #f46a35;
   border-radius: 10px;
@@ -52,7 +54,7 @@ header .container_menu{
   padding: 7px 26px 7px 26px;
   align-items: center;
   justify-content: center;
-  margin-bottom: 12px;
+
 
 }
 .open_account{
