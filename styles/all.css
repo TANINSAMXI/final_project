@@ -83,6 +83,233 @@ h1 {
   line-height: 130%;
   letter-spacing: 0.04em;
   color: #212121;
+  margin-bottom: 23px;
+}
+
+.banner span {
+  margin-left: 48px;
+}
+
+.banner span a:first-of-type {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 157%;
+  color: #212121;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  text-decoration: none;
+  padding: 13px 32px 13px 32px;
+  margin-right: 6px;
+  margin-bottom: 63px;
+}
+.banner span a:first-of-type:hover {
+  background-color: #f46a35;
+  color: #fff;
+}
+
+.banner span a:last-of-type {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 157%;
+  color: #212121;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  text-decoration: none;
+  padding: 13px 21px 13px 22px;
+  margin-right: 6px;
+}
+.banner span a:last-of-type:hover {
+  background-color: #f46a35;
+  color: #fff;
+}
+
+.banner .brx {
+  margin-left: 48px;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  border-top: solid 1px #edf6ee;
+}
+.banner .brx:first-of-type {
+  margin-top: 63px;
+}
+.banner .brx h4 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 125%;
+  letter-spacing: 0.02em;
+  color: #212121;
+  margin-bottom: 10px;
+}
+.banner .brx p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 143%;
+  letter-spacing: 0.02em;
+  color: #212121;
+  margin-bottom: 8px;
+}
+.banner .brx a {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #f46a35;
+  text-decoration: none;
+  display: flex;
+}
+.banner .brx a:after {
+  content: "";
+  background-image: url("../images/learn_more.svg");
+  background-repeat: no-repeat;
+  width: 12px;
+  height: 18px;
+  margin-top: 9px;
+  margin-left: 4px;
+}
+
+.ads {
+  max-width: 1200px;
+  display: flex;
+  margin: auto;
+  margin-top: 155px;
+}
+.ads .container_ads {
+  display: flex;
+  align-items: center;
+  margin-bottom: 208px;
+}
+
+.item {
+  flex: 1 0 auto;
+  margin-right: 48px;
+}
+.item img {
+  height: 24px;
+}
+
+h2 {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 144%;
+  letter-spacing: 0.04em;
+  color: #212121;
+  margin-bottom: 8px;
+}
+
+.paragraph {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 168%;
+  letter-spacing: 0.02em;
+  color: #212121;
+  margin-bottom: 48px;
+}
+
+.cards .cards_container {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  margin-bottom: 72px;
+}
+
+.card_1, .card_2 {
+  position: relative;
+}
+.card_1 .img_card_1, .card_2 .img_card_1 {
+  margin-left: 16px;
+}
+.card_1 .img_card_2, .card_2 .img_card_2 {
+  margin-left: 8px;
+}
+.card_1 img, .card_2 img {
+  width: 580px;
+  height: 641px;
+}
+.card_1 .enterprise, .card_2 .enterprise {
+  position: absolute;
+  top: 48px;
+  text-align: center;
+  margin-left: 72px;
+}
+.card_1 .startups, .card_2 .startups {
+  position: absolute;
+  top: 48px;
+  text-align: center;
+  margin-left: 80px;
+}
+
+.enterprise h4 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #fff;
+  font-size: 32px;
+  line-height: 125%;
+  margin-bottom: 10px;
+}
+.enterprise p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 35px;
+}
+.enterprise a {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 157%;
+  color: #fff;
+  text-decoration: none;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  height: 48px;
+  padding: 13px 41px;
+}
+
+.startups h4 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #212121;
+  font-size: 32px;
+  line-height: 125%;
+  margin-bottom: 10px;
+}
+.startups p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #212121;
+  margin-bottom: 35px;
+}
+.startups a {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 157%;
+  color: #212121;
+  text-decoration: none;
+  border: 1px solid #212121;
+  border-radius: 10px;
+  height: 48px;
+  padding: 13px 41px;
 }
 
 /*# sourceMappingURL=all.css.map */
